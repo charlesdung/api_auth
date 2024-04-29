@@ -28,7 +28,6 @@ class VoidLuzhu extends Base
      * @Apidoc\Title("作废露珠列表")
      * @Apidoc\Method("POST")
      * @Apidoc\Url("/vold/list")
-     * @Apidoc\Param("token", type="string",require=true, desc="token")
      * @Apidoc\Param("page", type="int",require=true,default="1", desc="页码")
      * @Apidoc\Param("limit", type="int",require=true,default="10",desc="条数")
      * @Apidoc\Returned("data", type="bool", desc="返回成功失败结果")

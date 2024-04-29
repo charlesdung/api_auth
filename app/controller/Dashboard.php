@@ -15,7 +15,6 @@ class Dashboard extends Base
      * @Apidoc\Title("控制面板统计数据")
      * @Apidoc\Method("POST")
      * @Apidoc\Url("/dashboard/all")
-     * @Apidoc\Param("token", type="string",require=true, desc="token")
      * @Apidoc\Param("admin_type", type="int",require=true,default="1", desc="admin_type")
      * @Apidoc\Returned("data", type="bool", desc="返回成功失败结果")
      */
