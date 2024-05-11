@@ -19,7 +19,7 @@ class Base extends BaseController
     }
 
     /**
-     * 用户登录信息12 $user
+     * 用户登录信息123 $user
      */
     public function admin_user_info()
     {
